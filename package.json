@@ -1,6 +1,6 @@
 {
   "name": "kyleroach",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Peronal npm card for Kyle Roach (@@iroachie)",
   "main": "bin/index.js",
   "repository": {

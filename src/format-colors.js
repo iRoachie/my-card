@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-const get = require("lodash.get");
-const chalk = require("chalk");
+const get = require('lodash.get');
+const chalk = require('chalk');
 
 //
 // convert color markers in a string to terminal color codes with chalk
