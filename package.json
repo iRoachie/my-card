@@ -1,0 +1,59 @@
+{
+  "name": "kyleroach",
+  "version": "0.0.1",
+  "description": "Peronal npm card for Kyle Roach (@@iroachie)",
+  "main": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/@iroachie/kyleroach.git"
+  },
+  "scripts": {
+    "prepublishOnly": "webpack",
+    "start": "node src/card.js"
+  },
+  "bin": {
+    "kyleroach": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Kyle Roach",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "lodash.get": "^4.4.2",
+    "webpack": "^4.28.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "myCard": {
+    "name": "                 Kyle Roach",
+    "handle": "<green> / </>iRoachie",
+    "data": {
+      ".empty-line-100": "",
+      "<blue>Work</>": "Frontend Developer at Hyuna International Ltd.",
+      "<yellow>Loves</>": "Typescript, React, React Native",
+      ".empty-line-200": "",
+      "Twitter": "https://twitter.com/<cyan>roach_iam</>",
+      "npm": "https://www.npmjs.com/<red>~iroachie</>",
+      "GitHub": "https://github.com/<green>iRoachie</>",
+      "LinkedIn": "https://www.linkedin.com/in/<blue>kyroach</>",
+      ".empty-line-300": "",
+      "Card": "<red>npx</> kyleroach"
+    }
+  }
+}
